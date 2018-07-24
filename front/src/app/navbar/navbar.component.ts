@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 import {
   trigger,
@@ -7,29 +7,33 @@ import {
   animate,
   transition
 } from '@angular/animations';
+import {AnimationStateMetadata} from '@angular/animations/src/animation_metadata';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.sass'],
   animations: [
-    trigger('flyInOut', [
-      state('in', style({transform: 'translateX(0)'})),
-      transition('void => *', [
-        style({transform: 'translateX(-100%)'}),
-        animate(100)
-      ]),
-      transition('* => void', [
-        animate(100, style({transform: 'translateX(100%)'}))
-      ])
+    trigger('rotatedState', [
+      state('default', style({ transform: 'rotate(0)' })),
+      state('rotated', style({ transform: 'rotate(-180deg)' })),
+      transition('rotated => default', animate('1500ms ease-out')),
+      transition('default => rotated', animate('150ms ease-in'))
     ])
   ]
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  private state = 'default';
+
+  constructor() {
+  }
 
   ngOnInit() {
+  }
+
+  rotate() {
+    this.state = (this.state === 'default' ? 'rotated' : 'default');
   }
 
 }
