@@ -18,11 +18,11 @@
 
 
     <div class="logo"></div>
-    <P>
+    <div class="logo__info">
       <b>Riko Sapto Dimo</b>
       <span >
         <span>Available</span>
-                  <svg [@rotatedState]='state' (click)="rotate()"
+                  <svg [@rotatedState]='rotateState' (click)="rotate()"
                        xmlns="http://www.w3.org/2000/svg" width="10" aria-hidden="true" data-prefix="fas"
                        data-icon="angle-down"
                        class="svg-inline--fa fa-angle-down fa-w-10" role="img" viewBox="0 0 320 512"><path
@@ -32,6 +32,9 @@
 
 
       </span>
-    </P>
+      <div class="popup" [@simpleFadeAnimation]="isUserDataPopupVisible">
+        user data
+      </div>
+    </div>
   </div>
 </nav>
