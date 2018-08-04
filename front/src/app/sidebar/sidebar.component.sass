@@ -1,0 +1,26 @@
+@import "../../vendor/vars.sass"
+
+$sideBarIcons: "/assets/icons/mes.png","/assets/icons/recent-mes.png","/assets/icons/diagram.png","/assets/icons/options.png"
+$sideBarIconsHover:  "/assets/icons/mes-active.png","/assets/icons/recent-mes-active.png","/assets/icons/diagram-active.png","/assets/icons/options-active.png"
+
+section
+  width: 73px
+  height: calc(100vh - 70px)
+  ul
+    display: flex
+    flex-direction: column
+    li
+      padding-top: 20px
+      padding-bottom: 50px
+      cursor: pointer
+      @for $i from 1 through length($sideBarIcons)
+        &:nth-of-type(#{$i})
+          background: url(nth($sideBarIcons, $i)) no-repeat center 20px
+          &:hover
+            transition: 1s
+            background: url(nth($sideBarIconsHover, $i)) no-repeat center 20px
+    img
+      display: block
+      margin: 0 auto
+
+
