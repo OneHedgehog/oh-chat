@@ -2,13 +2,15 @@
 
 .main-chat-container
   float: right
-  background: #eff3f7
+  background: $main-bg-color
   width: calc(100vw - #{$sidebar-width})
   height: calc(100vh - #{$navbar-height})
   display: flex
   align-items: center
   justify-content: center
   .main-chat-container-app
+    display: flex
+    justify-content: center
     height: calc(100vh - #{$navbar-height} - 2.4% *2)
     width: 95%
     background: #fff
