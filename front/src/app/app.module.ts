@@ -7,11 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ContactsComponent } from './main-app-chat/contacts/contacts.component';
+import { MainAppChatComponent } from './main-app-chat/main-app-chat.component';
+import { MessengerComponent } from './main-app-chat/messenger/messenger.component';
+import { CalendarComponent } from './main-app-chat/calendar/calendar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, SidebarComponent
+    AppComponent, NavbarComponent, SidebarComponent, ContactsComponent, MainAppChatComponent, MessengerComponent, CalendarComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule
