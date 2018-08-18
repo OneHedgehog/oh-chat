@@ -1,16 +1,19 @@
 @import "../vendor/_vars"
-
+.oh-container
+  height: 100vh
 .main-chat-container
   float: right
   background: $main-bg-color
-  width: calc(100vw - #{$sidebar-width})
-  height: calc(100vh - #{$navbar-height})
+  width: calc(100% - #{$sidebar-width})
+  height: 100%
   display: flex
   align-items: center
   justify-content: center
+  flex-wrap: wrap
   .main-chat-container-app
     display: flex
     justify-content: center
-    height: calc(100vh - #{$navbar-height} - 2.4% *2)
+    height: 95%
+    margin: 26px 0px
     width: 95%
     background: #fff
