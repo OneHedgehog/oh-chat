@@ -12,12 +12,12 @@ import {MainAppChatComponent} from './main-app-chat/main-app-chat.component';
 import {MessengerComponent} from './main-app-chat/messenger/messenger.component';
 import {CalendarComponent} from './main-app-chat/calendar/calendar.component';
 import {MessagePreviewComponent} from './main-app-chat/contacts/message-preview/message-preview.component';
-import {TextareaDirective} from './common-directives/textarea.directive';
+import { MessageComponent } from './main-app-chat/messenger/message/message.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, SidebarComponent, ContactsComponent, MainAppChatComponent, MessengerComponent, CalendarComponent, MessagePreviewComponent, TextareaDirective
+    AppComponent, NavbarComponent, SidebarComponent, ContactsComponent, MainAppChatComponent, MessengerComponent, CalendarComponent, MessagePreviewComponent, MessageComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule

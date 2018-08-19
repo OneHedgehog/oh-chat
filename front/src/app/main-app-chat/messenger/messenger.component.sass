@@ -39,12 +39,37 @@ $mes-height: 60px
       width: calc(90% - 15px*2)
       border: none
       height: 60px
-      outline: none
       padding: 15px
+      border-radius: 15px 0px 0px 15px
+      &:focus
+        outline: none
+        border: 1px solid #3598db
+        border-right: none
+      &:focus + .sendmes
+        outline: none
+        border: 1px solid #3598db
+        border-left: none
     .sendmes
       background: #fff
       width: 20%
-
+      border-radius: 0px 15px 15px 0px
+      display: flex
+      justify-content: center
+      align-items: center
+      .add-file
+        width: 23px
+        height: 23px
+        background: no-repeat url('/assets/icons/add-file.png')
+        cursor: pointer
+      .send-btn
+        width: 40px
+        height: 40px
+        background: no-repeat url('/assets/icons/send-mes.png') #3598db center center
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        border-radius: 50%
+        box-shadow: 0 5px 10px #3598db
+        cursor: pointer
 
 
 
