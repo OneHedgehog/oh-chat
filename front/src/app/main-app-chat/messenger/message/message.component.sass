@@ -1,0 +1,37 @@
+@import "../../../../vendor/vars"
+
+$defaultMesBackground: #fff
+
+.mes
+  display: flex
+  align-items: center
+  margin: 20px 10px
+  color: $primary-text-color
+  .logo
+    @extend %logo
+    margin-left: 10px
+    margin-right: 10px
+  .triangle
+    border-top: 10px solid transparent
+    border-bottom: 10px solid transparent
+    border-right: 10px solid $defaultMesBackground
+    border-radius: 50% 0% 0% 50%
+  .mes-item
+    padding: 15px 17px
+    -webkit-border-radius: 15px
+    -moz-border-radius: 15px
+    border-radius: 15px
+    background: $defaultMesBackground
+    box-shadow: 10px 10px 10px #e7eff6
+.isUsersMes
+  flex-direction: row-reverse
+  .mes-item
+    background: $main-blue-color
+    color: $main-text-color
+  .triangle
+    border-top: 10px solid transparent
+    border-bottom: 10px solid transparent
+    border-left: 10px solid green
+    border-right: 0px
+
+
