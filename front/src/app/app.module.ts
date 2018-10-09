@@ -13,11 +13,12 @@ import {MessengerComponent} from './main-app-chat/messenger/messenger.component'
 import {CalendarComponent} from './main-app-chat/calendar/calendar.component';
 import {MessagePreviewComponent} from './main-app-chat/contacts/message-preview/message-preview.component';
 import { MessageComponent } from './main-app-chat/messenger/message/message.component';
+import { OnehedgehogCalendarComponent } from './onehedgehog-calendar/onehedgehog-calendar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, SidebarComponent, ContactsComponent, MainAppChatComponent, MessengerComponent, CalendarComponent, MessagePreviewComponent, MessageComponent
+    AppComponent, NavbarComponent, SidebarComponent, ContactsComponent, MainAppChatComponent, MessengerComponent, CalendarComponent, MessagePreviewComponent, MessageComponent, OnehedgehogCalendarComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule

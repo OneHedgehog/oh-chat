@@ -9,7 +9,7 @@ $mes-height: 60px
   display: flex
   height: calc(100% - 25px)
   .mes-navbar
-    border-bottom: 1px solid #ddebf4
+    border-bottom: 1px solid $bd-color
     display: flex
     align-items: center
     padding-bottom: 24px
@@ -43,11 +43,11 @@ $mes-height: 60px
       border-radius: 15px 0px 0px 15px
       &:focus
         outline: none
-        border: 1px solid #3598db
+        border: 1px solid $main-blue-color
         border-right: none
       &:focus + .sendmes
         outline: none
-        border: 1px solid #3598db
+        border: 1px solid $main-blue-color
         border-left: none
     .sendmes
       background: #fff
@@ -64,11 +64,11 @@ $mes-height: 60px
       .send-btn
         width: 40px
         height: 40px
-        background: no-repeat url('/assets/icons/send-mes.png') #3598db center center
+        background: no-repeat url('/assets/icons/send-mes.png') $main-blue-color center center
         -webkit-border-radius: 50%
         -moz-border-radius: 50%
         border-radius: 50%
-        box-shadow: 0 5px 10px #3598db
+        box-shadow: 0 5px 10px $main-blue-color
         cursor: pointer
 
 
