@@ -24,6 +24,7 @@ Vagrant.configure("2") do |config|
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # NOTE: This will enable public access to the opened port
   config.vm.network "forwarded_port", guest: 80, host: 80
+  config.vm.network "forwarded_port", guest: 5432 , host: 5432
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
@@ -64,17 +65,23 @@ Vagrant.configure("2") do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   # config.vm.provision "shell", inline: <<-SHELL
-     sudo apt-get update && sudo apt-get upgrade
-     sudo apt-get install -y nginx
-     sudo apt-get install software-properties-common
-     sudo add-apt-repository ppa:ondrej/php
-     sudo apt-get update
-     sudo apt-get install php7.2-fpm
+     #sudo apt-get update && sudo apt-get upgrade
+     #sudo apt-get install -y nginx
+     #sudo apt-get install software-properties-common
+     #sudo add-apt-repository ppa:ondrej/php
+     #sudo apt-get update
+     #sudo apt-get install php7.2-fpm
      #sudo apt-get install php7.2
-     sudo apt-get install php-pear php7.2-curl php7.2-dev php7.2-gd php7.2-mbstring php7.2-zip php7.2-mysql php7.2-xml git
-     cd ~
-     curl -sS https://getcomposer.org/installer -o composer-setup.php
-     sudo php composer-setup.php --install-dir=/var/www/ --filename=composer
-     php composer install
+     #sudo apt-get install php-pear php7.2-curl php7.2-dev php7.2-gd php7.2-mbstring php7.2-zip php7.2-mysql php7.2-xml git
+     #cd ~
+     #curl -sS https://getcomposer.org/installer -o composer-setup.php
+     #sudo php composer-setup.php --install-dir=/var/www/ --filename=composer
+     #php composer install
+     #sudo apt-get install postgresql
+     #sudo -u postgres psql
+     #CREATE DATABASE oh_chat;
+     #CREATE USER oh_chat WITH password 'oh_chat';
+     #GRANT ALL ON DATABASE oh_chat TO oh_chat;
+     #\q
   # SHELL
 end
