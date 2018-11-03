@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./backend", "/var/www/"
+  config.vm.synced_folder "./", "/var/www/"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -83,5 +83,10 @@ Vagrant.configure("2") do |config|
      #CREATE USER oh_chat WITH password 'oh_chat';
      #GRANT ALL ON DATABASE oh_chat TO oh_chat;
      #\q
+
+     #sudo curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+     #sudo apt-get install -y nodejs
+     # cd /var/www/front/
+     #sudo npm i
   # SHELL
 end
