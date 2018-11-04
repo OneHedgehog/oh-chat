@@ -50,13 +50,15 @@ Vagrant.configure("2") do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-  # config.vm.provider "virtualbox" do |vb|
+  config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-  #   vb.memory = "1024"
-  # end
+     vb.memory = "2048"
+     vb.customize ["modifyvm", :id, "--memory", "2048"]
+     vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
+  end
   #
   # View the documentation for the provider you are using for more
   # information on available options.
@@ -84,9 +86,5 @@ Vagrant.configure("2") do |config|
      #GRANT ALL ON DATABASE oh_chat TO oh_chat;
      #\q
 
-     #sudo curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
-     #sudo apt-get install -y nodejs
-     # cd /var/www/front/
-     #sudo npm i
   # SHELL
 end
