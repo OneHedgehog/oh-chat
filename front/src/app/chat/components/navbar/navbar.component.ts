@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import { Store } from '@ngrx/store';
+import * as fromUserStatus from '../../reducers/user-status.reducer';
+
+import {NavbarActions } from "../../actions/index";
 
 import {
   trigger,
@@ -33,14 +36,14 @@ export class NavbarComponent implements OnInit {
   public rotateState: (string | any) = 'default';
   public isUserDataPopupVisible: (string | any) = 'hide';
 
-  constructor() {
+  constructor(private store: Store<fromUserStatus.State>) {
   }
 
   ngOnInit() {
   }
 
   rotate() {
-    this.rotateState = (this.rotateState === 'default' ? 'rotated' : 'default');
+    this.rotateState = this.store.dispatch(new NavbarActions.ChangeUserCurrentStatus());
     this.showHideUserDataPopup();
     console.log(this.isUserDataPopupVisible);
   }

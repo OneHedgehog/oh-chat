@@ -1,21 +1,11 @@
 import { Action } from '@ngrx/store';
 
 export enum NavbarActionTypes {
-  ShowUserCurrentStatus = '[NavbarArrowAnimation] ShowUserCurrentStatus',
-  HideUserCurrentStatus = '[NavbarArrowAnimation] HideUserCurrentStatus',
+  ChangeUserCurrentStatus = '[NavbarArrowAnimation] HideUserCurrentStatus',
 }
 
-
-export class ShowUserCurrentStatus implements Action {
-  readonly type = NavbarActionTypes.ShowUserCurrentStatus;
-
-  constructor(public payload: any) {}
+export class ChangeUserCurrentStatus implements Action {
+  readonly type = NavbarActionTypes.ChangeUserCurrentStatus;
 }
 
-export class HideUserCurrentStatus implements Action {
-  readonly type = NavbarActionTypes.HideUserCurrentStatus;
-
-  constructor(public payload: any) {}
-}
-
-export type NavbarActionsUnion = ShowUserCurrentStatus | HideUserCurrentStatus
+export type NavbarActionsUnion = ChangeUserCurrentStatus

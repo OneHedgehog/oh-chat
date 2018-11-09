@@ -1,11 +1,19 @@
-import { NavbarActionsUnion, NavbarActionTypes} from "../actions/navbar.actions";
+import {NavbarActionsUnion, NavbarActionTypes} from "../actions/navbar.actions";
 
-export const state = {
-  show: false
+export interface State {
+  rotateState: string;
 }
 
-export function reducer(state, action: NavbarActionsUnion) {
-  // switch (A) {
-  //
-  // }
+const initialState: State = {
+  rotateState: 'default'
+};
+
+export function reducer(state: State = initialState, action: NavbarActionsUnion) {
+  switch (action.type) {
+    case NavbarActionTypes.ChangeUserCurrentStatus:
+      state.rotateState = state.rotateState === 'default' ? 'rotated' : 'default';
+      return  state;
+    default :
+      return state;
+  }
 }
