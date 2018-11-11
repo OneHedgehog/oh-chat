@@ -9,13 +9,19 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './app.effects';
+import {AuthModule} from "./auth/auth.module";
 
 
 @NgModule({
   declarations: [
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, ChatModule, StoreModule.forRoot(reducers, { metaReducers }), EffectsModule.forRoot([AppEffects])
+    BrowserModule,
+    BrowserAnimationsModule,
+    ChatModule,
+    AuthModule,
+    StoreModule.forRoot(reducers, { metaReducers }),
+    EffectsModule.forRoot([AppEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]

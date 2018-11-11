@@ -4,14 +4,15 @@ export interface State {
   rotateState: string;
 }
 
-const initialState: State = {
+let initialState: State = {
   rotateState: 'default'
 };
 
-export function reducer(state: State = initialState, action: NavbarActionsUnion) {
+export function reducer(state: State= initialState, action: NavbarActionsUnion) {
+  console.log('state from reducer');
   switch (action.type) {
     case NavbarActionTypes.ChangeUserCurrentStatus:
-      state.rotateState = state.rotateState === 'default' ? 'rotated' : 'default';
+      state.rotateState = initialState.rotateState === 'default' ? 'rotated' : 'default';
       return  state;
     default :
       return state;
