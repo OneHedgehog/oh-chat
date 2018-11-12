@@ -2,7 +2,7 @@ import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {NavbarComponent} from './navbar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {AppComponent} from '../../containers/app.component';
+import {AppComponent} from '../../../app.component';
 import {By} from '@angular/platform-browser';
 
 describe('NavbarComponent', () => {
