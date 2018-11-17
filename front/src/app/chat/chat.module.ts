@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import {AppComponent} from '../app.component';
+import { ChatContainerComponent} from "./containers/chat/chat-container.component";
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {SidebarComponent} from './components/sidebar/sidebar.component';
 import {ContactsComponent} from './components/main-app-chat/contacts/contacts.component';
@@ -11,10 +11,10 @@ import {CalendarComponent} from './components/main-app-chat/calendar/calendar.co
 import {MessagePreviewComponent} from './components/main-app-chat/contacts/message-preview/message-preview.component';
 import { MessageComponent } from './components/main-app-chat/messenger/message/message.component';
 import { OnehedgehogCalendarComponent } from './components/onehedgehog-calendar/onehedgehog-calendar.component';
-import { ChatComponent} from "./containers/chat/chat.component";
+import {ChatRoutingModule} from "./chat-routing.module";
 
 export const COMPONENTS = [
-  AppComponent,
+  ChatContainerComponent,
   NavbarComponent,
   SidebarComponent,
   ContactsComponent,
@@ -24,12 +24,11 @@ export const COMPONENTS = [
   MessagePreviewComponent,
   MessageComponent,
   OnehedgehogCalendarComponent,
-  ChatComponent
 ]
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,   ChatRoutingModule
   ],
   declarations:  COMPONENTS,
   exports: COMPONENTS
