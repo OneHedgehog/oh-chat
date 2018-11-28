@@ -9,8 +9,8 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers/index';
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './app.effects';
-import {AuthModule} from "./auth/auth.module";
 import { AppRoutingModule } from "./app-routing.module";
+import {AuthModule} from "./auth/auth.module";
 
 
 @NgModule({
