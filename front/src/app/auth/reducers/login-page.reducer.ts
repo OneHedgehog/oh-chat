@@ -1,5 +1,4 @@
 import {LoginPageActions} from "../actions";
-import {LoginPageActionTypes} from "../actions/login-page.actions";
 
 export interface State {
   error: string | null;
@@ -16,7 +15,8 @@ export function reducer(
   action: LoginPageActions.Login
 ) {
   switch (action.type) {
-    case LoginPageActionTypes.Login:
+    case LoginPageActions.Login:
+      console.log('jj');
       return {
         ...state,
         error: null,

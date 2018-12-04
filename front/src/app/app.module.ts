@@ -6,7 +6,7 @@ import { ChatModule} from "./chat/chat.module";
 
 import { AppComponent} from "./core/components/app.component";
 import { StoreModule } from '@ngrx/store';
-import { reducers, metaReducers } from './reducers/index';
+
 import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './app.effects';
 import { AppRoutingModule } from "./app-routing.module";
@@ -19,7 +19,7 @@ import {AuthModule} from "./auth/auth.module";
     BrowserAnimationsModule,
     ChatModule,
     AuthModule,
-    StoreModule.forRoot(reducers, { metaReducers }),
+    StoreModule.forRoot({}),
     EffectsModule.forRoot([AppEffects]),
 
     AppRoutingModule

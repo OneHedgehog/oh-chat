@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { StoreModule } from '@ngrx/store';
+import { reducers} from './reducers'
 
 import {LoginComponent } from "./components/login/login.component";
 import {LoginPageComponent} from "./containers/login-page/login-page.component";
@@ -15,7 +17,8 @@ export const COMPONENTS = [
 @NgModule({  
   imports: [
     CommonModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    StoreModule.forFeature('Login Page', reducers),
   ],
   declarations:[COMPONENTS],
   providers: [AuthService],
