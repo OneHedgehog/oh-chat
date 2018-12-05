@@ -7,7 +7,7 @@ export interface State {
 
 export const initialState: State = {
   error: null,
-  pending: false,
+  pending: true,
 }
 
 export function reducer(
@@ -15,12 +15,14 @@ export function reducer(
   action: LoginPageActions.Login
 ) {
   switch (action.type) {
-    case LoginPageActions.Login:
-      console.log('jj');
+    case LoginPageActions.LoginPageActionTypes.Login:
+      console.log('sdf');
       return {
         ...state,
         error: null,
         pending: false,
       }
+    default:
+      return state;
   }
 }
