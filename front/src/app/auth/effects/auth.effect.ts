@@ -5,7 +5,7 @@ import { Action } from "@ngrx/store"
 
 import { AuthService} from "../services/auth.service";
 import * as login from '../actions/login-page.actions';
-import {Observable} from "rxjs";
+import {Observable, of} from "rxjs";
 
 import { debounceTime, map, exhaustMap } from 'rxjs/operators';
 
@@ -14,13 +14,15 @@ import { debounceTime, map, exhaustMap } from 'rxjs/operators';
 })
 
 @Injectable()
-export class AuthEffect {
+export class AuthEffects {
 
   @Effect()
-  $auth$: Observable<Action> = this.actions$.pipe(
+  login$: Observable<Action> = this.actions$.pipe(
     ofType(login.LoginPageActionTypes.Login),
-    // mergeMap(),
-    exhaustMap( eventData => 1)
+    exhaustMap( eventData => {
+      console.log('asd');
+      return of();
+    })
   )
 
   constructor(private actions$: Actions, private authService: AuthService) { }

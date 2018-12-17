@@ -8,6 +8,8 @@ import {LoginPageComponent} from "./containers/login-page/login-page.component";
 
 import { AuthRoutingModule} from "./auth-routing.module";
 import { AuthService} from "./services/auth.service";
+import { AuthEffects } from './effects/auth.effect';
+import { EffectsModule } from '@ngrx/effects';
 
 export const COMPONENTS = [
   LoginComponent,
@@ -19,6 +21,7 @@ export const COMPONENTS = [
     CommonModule,
     AuthRoutingModule,
     StoreModule.forFeature('Login Page', reducers),
+    EffectsModule.forFeature([AuthEffects])
   ],
   declarations:[COMPONENTS],
   providers: [AuthService],
