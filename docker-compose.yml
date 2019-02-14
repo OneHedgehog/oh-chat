@@ -57,6 +57,7 @@ services:
     image: prooph/composer:7.2
     #also can use follow command:
     #docker run --rm -v $(pwd):/app prooph/composer:7.2 install
+    #TODO fix to automatic upload
     command: "composer install"
     volumes:
       - ./backend:/backend
