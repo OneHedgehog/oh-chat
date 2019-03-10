@@ -1,12 +1,11 @@
 <?php
 
-use App\Kernel;
-use Symfony\Component\Debug\Debug;
-use Symfony\Component\Dotenv\Dotenv;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Debug\ErrorHandler;
+
+error_reporting(-1);
+ini_set('display_errors', 'On');
 
 require __DIR__.'/../vendor/autoload.php';
+
 
 // The check is to ensure we don't use .env in production
 if (!isset($_SERVER['APP_ENV']) && !isset($_ENV['APP_ENV'])) {
@@ -18,6 +17,7 @@ if (!isset($_SERVER['APP_ENV']) && !isset($_ENV['APP_ENV'])) {
 
 $env = $_SERVER['APP_ENV'] ?? $_ENV['APP_ENV'] ?? 'dev';
 $debug = (bool) ($_SERVER['APP_DEBUG'] ?? $_ENV['APP_DEBUG'] ?? ('prod' !== $env));
+
 
 if ($debug) {
     umask(0000);
@@ -38,3 +38,5 @@ $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
 $kernel->terminate($request, $response);
+
+

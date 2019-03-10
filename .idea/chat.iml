@@ -23,7 +23,6 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/reflection" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/easycorp/easy-log-handler" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/egulias/email-validator" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/facebook/webdriver" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/fig/link-util" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/jdorn/sql-formatter" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/monolog/monolog" />
@@ -45,6 +44,7 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/cache" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/config" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/contracts" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/css-selector" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/debug" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/debug-bundle" />
@@ -69,7 +69,6 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/monolog-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/options-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/orm-pack" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/panther" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/phpunit-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/polyfill-intl-icu" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/polyfill-mbstring" />
@@ -91,6 +90,7 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/twig-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/validator" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/web-link" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/web-profiler-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/web-server-bundle" />

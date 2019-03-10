@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a4045c-63f2-451f-ad4c-afc88562bb24" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/nginx/default" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,175 +40,62 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="oh_chat@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="oh_chat@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="oh_chat@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="oh_chat: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="oh_chat@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="428111991">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="33" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.24" value="3" />
-          <entry key="project.open.time.25" value="4" />
-          <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.28" value="4" />
-          <entry key="project.open.time.29" value="3" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.32" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="35" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Vagrantfile" value="6" />
-          <entry key="conf" value="6" />
-          <entry key="default" value="2" />
-          <entry key="env" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="29" />
-          <entry key="js" value="1" />
-          <entry key="json" value="7" />
-          <entry key="log" value="2" />
-          <entry key="php" value="5" />
-          <entry key="sass" value="27" />
-          <entry key="sql" value="4" />
-          <entry key="ts" value="142" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key=".env file" value="1" />
-          <entry key="HTML" value="29" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Log" value="2" />
-          <entry key="PHP" value="5" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="SQL" value="1" />
-          <entry key="Sass" value="27" />
-          <entry key="Scratch" value="3" />
-          <entry key="SmartyConfig" value="6" />
-          <entry key="TypeScript" value="142" />
-          <entry key="tsconfig" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Vagrantfile" value="273" />
-          <entry key="conf" value="19" />
-          <entry key="gitignore" value="10" />
-          <entry key="html" value="144" />
-          <entry key="php" value="66" />
-          <entry key="sass" value="98" />
-          <entry key="sql" value="33" />
-          <entry key="ts" value="2298" />
-          <entry key="txt" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="144" />
-          <entry key="PHP" value="66" />
-          <entry key="PLAIN_TEXT" value="294" />
-          <entry key="SQL" value="10" />
-          <entry key="Sass" value="98" />
-          <entry key="Scratch" value="23" />
-          <entry key="SmartyConfig" value="19" />
-          <entry key="TypeScript" value="2298" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.php.composer.actions" />
-      <usages-collector id="statistics.php.new.class" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="Angular2LanguageService" value="23" />
-          <entry key="TypeScriptServerServiceImpl" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.php.composer.command.options" />
-      <usages-collector id="statistics.php.new.test" />
-      <usages-collector id="statistics.php.rename.constructor" />
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="oh-chat" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/app/auth/reducers/login-page.reducer.ts">
+        <entry file="file://$PROJECT_DIR$/Vagrantfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="896">
+              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/app/auth/containers/login-page/login-page.component.ts">
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-available/default">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="136">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts">
+        <entry file="file://$PROJECT_DIR$/nginx/default">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/app/auth/auth.module.ts">
+        <entry file="file://$PROJECT_DIR$/ubuntu-xenial-16.04-cloudimg-console.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="-10562" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -222,12 +120,25 @@
       <find>ChatCompo</find>
       <find>NgModule</find>
       <find>_va</find>
+      <find>php</find>
+      <find>worker_processes</find>
+      <find>html</find>
+      <find>opcache</find>
+      <find>mysqlnd</find>
+      <find>.env</find>
+      <find>new dotenv</find>
+      <find>www</find>
+      <find>Debug</find>
+      <find>mem</find>
+      <find>synced</find>
+      <find>/vagrant</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\andre\PhpstormProjects\oh-chat\front\src\app</dir>
       <dir>C:\Users\andre\PhpstormProjects\oh-chat</dir>
       <dir>C:\Users\andre\PhpstormProjects\oh-chat\front</dir>
       <dir>C:\Users\andre\PhpstormProjects\oh-chat\front\src</dir>
+      <dir>C:\Users\apert\PhpstormProjects\oh-chat\backend</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -236,22 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/messenger/messenger.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/main-app-chat.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/contacts/contacts.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/calendar/calendar.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/contacts/message-preview/message-preview.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/messenger/message/message.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/sidebar/sidebar.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/containers/app.component.sass" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/containers/app.component.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/reducers/navbar.reducer.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/actions/navbar.actions.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/actions/index.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/reducers/user-status.reducer.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.animations.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.component.ts" />
         <option value="$PROJECT_DIR$/front/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/front/src/app/chat/containers/chat/chat.component.html" />
         <option value="$PROJECT_DIR$/front/src/app/app.component.sass" />
@@ -287,22 +182,24 @@
         <option value="$PROJECT_DIR$/front/src/app/auth/reducers/login-page.reducer.ts" />
         <option value="$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.spec.ts" />
         <option value="$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/var/www/html/index.nginx-debian.html" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/var/www/nginx/default.conf" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-enabled/oh-chat.conf" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/backend/public/index.php" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-available/ohchat.conf" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-enabled/ohchat.conf" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/php/7.2/fpm/php.ini" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/var/www/backend/public/index.php" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/php/7.2/fpm/php-fpm.conf" />
+        <option value="$PROJECT_DIR$/backend/public/index.php" />
+        <option value="$PROJECT_DIR$/backend/bin/console" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/php/7.3/fpm/php.ini" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-available/default" />
+        <option value="$PROJECT_DIR$/nginx/default" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/front/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/front/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
@@ -310,105 +207,105 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/backend/vendor/ocramius/package-versions" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/persistence" />
-      <path value="$PROJECT_DIR$/backend/vendor/zendframework/zend-code" />
-      <path value="$PROJECT_DIR$/backend/vendor/zendframework/zend-eventmanager" />
-      <path value="$PROJECT_DIR$/backend/vendor/ocramius/proxy-manager" />
-      <path value="$PROJECT_DIR$/backend/vendor/composer" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/event-manager" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/reflection" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-cache-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/flex" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/backend/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/http-kernel" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/migrations" />
-      <path value="$PROJECT_DIR$/backend/vendor/psr/container" />
-      <path value="$PROJECT_DIR$/backend/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/backend/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/backend/vendor/psr/simple-cache" />
-      <path value="$PROJECT_DIR$/backend/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/backend/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/cache" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/config" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/framework-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/dependency-injection" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/asset" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/form" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/intl" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/options-resolver" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/expression-language" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/monolog-bridge" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/inflector" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/cache" />
       <path value="$PROJECT_DIR$/backend/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/web-profiler-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/twig-bridge" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/twig-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/serializer-pack" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/swiftmailer-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/property-info" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/serializer" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/web-link" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-php72" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/orm-pack" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/backend/vendor/composer" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/security" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/dotenv" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/stopwatch" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-intl-icu" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/backend/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/backend/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/backend/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/backend/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/backend/vendor/fig/link-util" />
-      <path value="$PROJECT_DIR$/backend/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/backend/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/backend/vendor/easycorp/easy-log-handler" />
-      <path value="$PROJECT_DIR$/backend/vendor/facebook/webdriver" />
-      <path value="$PROJECT_DIR$/backend/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/backend/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/backend/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/backend/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/backend/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/backend/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/backend/vendor/psr/link" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/backend/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/backend/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/backend/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/twig-bridge" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/dom-crawler" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/phpunit-bridge" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/browser-kit" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/panther" />
-      <path value="$PROJECT_DIR$/backend/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/test-pack" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/css-selector" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="100" />
+    <option name="x" value="75" />
+    <option name="y" value="50" />
     <option name="width" value="1750" />
     <option name="height" value="930" />
   </component>
@@ -429,55 +326,12 @@
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="effects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,8 +342,14 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -498,6 +358,9 @@
     <property name="ts.external.directory.path" value="C:\Users\andre\PhpstormProjects\oh-chat\front\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apert\PhpstormProjects\oh-chat\nginx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\effects" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\containers" />
@@ -564,11 +427,30 @@
       <workItem from="1543963104936" duration="694000" />
       <workItem from="1544042069178" duration="4267000" />
       <workItem from="1544123368388" duration="4755000" />
+      <workItem from="1549141164689" duration="893000" />
+      <workItem from="1549142778243" duration="6599000" />
+      <workItem from="1549307054810" duration="1851000" />
+      <workItem from="1549487783598" duration="5606000" />
+      <workItem from="1549655480690" duration="9385000" />
+      <workItem from="1549827488062" duration="4363000" />
+      <workItem from="1550004715366" duration="2641000" />
+      <workItem from="1550084798186" duration="6899000" />
+      <workItem from="1550175572933" duration="599000" />
+      <workItem from="1550255054056" duration="653000" />
+      <workItem from="1550601514750" duration="4854000" />
+      <workItem from="1551726082821" duration="4509000" />
+      <workItem from="1551903777425" duration="5157000" />
+      <workItem from="1551995520373" duration="8546000" />
+      <workItem from="1552054628709" duration="9739000" />
+      <workItem from="1552085227322" duration="2580000" />
+      <workItem from="1552154700730" duration="7290000" />
+      <workItem from="1552236891731" duration="3444000" />
+      <workItem from="1552247573730" duration="3386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164076000" />
+    <option name="totallyTimeSpent" value="253070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,27 +465,30 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4114094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32013422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40509915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.27801418" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.30496454" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Favorites" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" visible="true" weight="0.49433428" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.30496454" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32907802" />
-      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="14" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="16" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.03691275" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2758389" />
+      <window_info active="true" anchor="right" id="Remote Host" order="4" visible="true" weight="0.18926175" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,105 +529,33 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/backend/public/index.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.animations.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/components/navbar/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/reducers/user-status.reducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="88" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/styles.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.effects.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.effects.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/containers/chat/chat.component.html" />
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/containers/chat/chat.component.sass" />
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/containers/chat/chat.component.ts" />
-    <entry file="file://$PROJECT_DIR$/front/src/app/auth/auth-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/core/components/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/components/main-app-chat/main-app-chat.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/chat/chat-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/chat/chat.module.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -808,13 +621,7 @@
     <entry file="file://$PROJECT_DIR$/front/src/app/auth/containers/login-page/login-page.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/node_modules/@ngrx/store/src/store.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/@ngrx/store/src/store.d.ts" />
     <entry file="file://$PROJECT_DIR$/front/angular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1749" />
@@ -890,10 +697,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/auth/auth.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="153">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -902,18 +716,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="187">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -931,13 +738,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Без названия (19)">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/vendor/symfony/debug/Debug.php" />
+    <entry file="file://$PROJECT_DIR$/backend/bin/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="e#26#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/app/chat/reducers/user-status.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.env.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/satisfiable" />
+    <entry file="file://$PROJECT_DIR$/backend/the" />
+    <entry file="file://$PROJECT_DIR$/backend/symfony.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ubuntu-xenial-16.04-cloudimg-console.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-10562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/default">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

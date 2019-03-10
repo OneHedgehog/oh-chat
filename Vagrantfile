@@ -46,6 +46,13 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
   config.vm.synced_folder "./", "/var/www/"
 
+  config.vm.synced_folder "./nginx/", "/etc/nginx/conf.d/", type: "rsync",
+      rsync__args: ["--include=file.conf"]
+  #config.vm.synced_folder "./nginx/", "/etc/nginx/conf.d/", type: "rsync",
+  #rsync__args: ["--include=default.conf"]
+  #config.vm.synced_folder "./nginx/", "/etc/nginx/sites-available/", type: "rsync", rsync__args: ["--include=default"]
+
+  #config.vm.provision "file", source: "./nginx/default", destination: "/etc/nginx/sites-available/default"
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
@@ -55,8 +62,8 @@ Vagrant.configure("2") do |config|
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "2048"
-     vb.customize ["modifyvm", :id, "--memory", "2048"]
+     vb.memory = "4096"
+     vb.customize ["modifyvm", :id, "--memory", "4096"]
      vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
   end
   #
@@ -66,7 +73,7 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
-  # config.vm.provision "shell", inline: <<-SHELL
+  config.vm.provision "shell", inline: <<-SHELL
      #sudo apt-get update && sudo apt-get upgrade
      #sudo apt-get install -y nginx
      #sudo apt-get install software-properties-common
@@ -81,10 +88,26 @@ Vagrant.configure("2") do |config|
      #php composer install
      #sudo apt-get install postgresql
      #sudo -u postgres psql
+
      #CREATE DATABASE oh_chat;
      #CREATE USER oh_chat WITH password 'oh_chat';
      #GRANT ALL ON DATABASE oh_chat TO oh_chat;
      #\q
 
-  # SHELL
+     #--------------------------
+     sudo apt update
+     sudo apt install nginx
+
+     sudo apt-get install postgresql postgresql-contrib
+     sudo add-apt-repository ppa:ondrej/php
+     sudo apt update
+     sudo apt-get install php7.3-fpm php7.3-cli php7.3-mysql php7.3-gd php7.3-imagick php7.3-recode php7.3-tidy php7.3-xmlrpc
+     cd /var/www/backend/
+     curl -sS https://getcomposer.org/installer -o composer-setup.php
+     sudo php composer-setup.php --install-dir=bin --filename=composer
+     sudo apt-get install php7.3-xml
+     sudo apt-get install zip unzip php7.3-zip
+     sudo php composer.phar require symfony/translation
+     sudo php composer.phar install
+   SHELL
 end

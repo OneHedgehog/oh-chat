@@ -29,8 +29,8 @@ $debug = (bool) ($_SERVER['APP_DEBUG'] ?? ('prod' !== $env)) && !$input->hasPara
 if ($debug) {
     umask(0000);
 
-    if (class_exists(Debug::class)) {
-        Debug::enable();
+    if (class_exists(\Symfony\Component\Debug\Debug::class)) {
+        \Symfony\Component\Debug\Debug::enable();
     }
 }
 
