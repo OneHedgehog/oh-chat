@@ -18,11 +18,11 @@ services:
     image: postgres
     restart: always
     ports:
-        - 5432:5432
+      - 5432:5432
     environment:
-        POSTGRES_USER: developer
-        POSTGRES_PASSWORD: uVK4PBfdNBncWLbmZMKG
-        POSTGRES_DB: chat
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: uVK4PBfdNBncWLbmZMKG
+      POSTGRES_DB: chat
 
   adminer:
     image: adminer
@@ -61,6 +61,11 @@ services:
     #also can use follow command:
     #docker run --rm -v $(pwd):/app prooph/composer:7.2 install
     #TODO fix to automatic upload
-    command: "composer install"
+    command: install
     volumes:
       - ./backend:/backend
+    #working dir is needed to load composer packages
+
+    #run this, if need to run command in new container. Actually for windows
+    #docker-compose run composer install
+    working_dir: /backend
