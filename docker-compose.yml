@@ -46,11 +46,11 @@ services:
   node:
     image: "node:8"
     user: "node"
-    working_dir: /home/node/app
+    working_dir: /front
     environment:
       - NODE_ENV=production
     volumes:
-      - ./:/home/node/app
+      - ./front:/front
     expose:
       - "8081"
     command: "npm start"
