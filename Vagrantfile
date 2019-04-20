@@ -12,7 +12,9 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
+  #TODO sudo npm install --no-bin-links
   config.vm.box =  "ubuntu/xenial64"
+
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -44,7 +46,7 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  config.vm.synced_folder "./", "/var/www/"
+  config.vm.synced_folder "./", "/var/www/", type: "nfs", create: true
 
   config.vm.synced_folder "./nginx/", "/etc/nginx/conf.d/", type: "rsync",
       rsync__args: ["--include=file.conf"]
@@ -95,19 +97,14 @@ Vagrant.configure("2") do |config|
      #\q
 
      #--------------------------
-     sudo apt update
-     sudo apt install nginx
-
-     sudo apt-get install postgresql postgresql-contrib
-     sudo add-apt-repository ppa:ondrej/php
-     sudo apt update
-     sudo apt-get install php7.3-fpm php7.3-cli php7.3-mysql php7.3-gd php7.3-imagick php7.3-recode php7.3-tidy php7.3-xmlrpc
-     cd /var/www/backend/
-     curl -sS https://getcomposer.org/installer -o composer-setup.php
-     sudo php composer-setup.php --install-dir=bin --filename=composer
-     sudo apt-get install php7.3-xml
-     sudo apt-get install zip unzip php7.3-zip
-     sudo php composer.phar require symfony/translation
-     sudo php composer.phar install
+     #sudo add-apt-repository ppa:ondrej/php
+     #sudo apt update
+     #sudo apt install nginx
+     #sudo apt-get install php7.3-fpm php7.3-cli php7.3-mysql php7.3-gd php7.3-imagick php7.3-recode php7.3-tidy php7.3-xmlrpc php7.3-xml zip unzip php7.3-zip php7.3-curl php7.3-mbstring postgresql postgresql-contrib
+     #cd /var/www/backend/
+     #curl -sS https://getcomposer.org/installer -o composer-setup.php
+     #sudo php composer-setup.php --install-dir=bin --filename=composer
+     #sudo php composer.phar require symfony/translation
+     #sudo php composer.phar install
    SHELL
 end

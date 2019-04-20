@@ -1,0 +1,113 @@
+$header_font_color: #b7b7b7
+$right_width: 85%
+
+%message-shared
+  content: ''
+  display: block
+  -webkit-border-radius: 50%
+  -moz-border-radius: 50%
+  border-radius: 50%
+  position: relative
+
+
+.flex-wrapper
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100vh
+  background: #00f
+  flex-direction: column
+  .form-wrapper
+    width: 600px
+  .oh-login-form, .oh-register-form
+    width: 400px
+    height: 470px
+    background: #fff
+    color: #1e9088
+    position: relative
+    z-index: 1
+    float: right
+    box-shadow: 0px 0px 10px 0px #b7b7b7
+    input
+      font-size: 16px
+      padding: 20px 20px
+      border: none
+      border-bottom: 1px solid #b1e8ef
+      outline: none
+      width: $right_width
+      &::placeholder
+        color: #b7b7b7
+    .form-header
+      margin-top: 30px
+      margin-bottom: 40px
+      width: $right_width
+      float: right
+    .oh-button-container
+      position: absolute
+      bottom: -2px
+      width: 100%
+      button
+        height: 65px
+        width: 50%
+        border: none
+        outline: none
+        cursor: pointer
+        background: #fff
+        color: $header_font_color
+        font-size: 15px
+      .active
+        background: #1f908a
+        color: #fff
+        font-size: 16px
+        text-transform: uppercase
+    .checkbox-wrap
+      display: flex
+      margin-top: 20px
+      input
+        display: none
+      label
+        color: $header_font_color
+        margin: 0 5px
+        display: flex
+        &:before
+          @extend %message-shared
+          border: $header_font_color 2px solid
+          width: 6px
+          height: 6px
+          top: 4px
+          margin-right: 7px
+      input:checked + label:before
+        @extend %message-shared
+        width: 6px
+        height: 6px
+        background: #fff
+      input:checked + label:after
+        @extend %message-shared
+        background: #b1e8ef
+        width: 4px
+        height: 4px
+        right: calc(100% - 7px)
+        top: 7px
+  .oh-register-form
+    position: absolute
+    background: #fff
+    width: 400px
+    height: 600px
+    z-index: 0
+    top: calc( 90% - 600px)
+    box-shadow: 0px 0px 10px 0px #b7b7b7
+    h1
+      color: #afafaf
+    .oh-button-container button:nth-of-type(1)
+      background: #b0b0b0
+      color: #fff
+    .oh-button-container button:nth-of-type(2)
+      background: #e9e9e9
+    .oh-login-form-content input
+      border-bottom: 1px solid #e5e5e5
+.oh-login-form-content
+  width: $right_width
+  float: right
+
+
+

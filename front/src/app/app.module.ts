@@ -1,5 +1,5 @@
 import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import {NgModule, PLATFORM_ID, APP_ID, Inject} from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ChatModule} from "./chat/chat.module";
@@ -15,7 +15,7 @@ import {AuthModule} from "./auth/auth.module";
 
 @NgModule({
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'front' }),
     BrowserAnimationsModule,
     ChatModule,
     AuthModule,
@@ -29,4 +29,10 @@ import {AuthModule} from "./auth/auth.module";
   declarations: [AppComponent]
 })
 export class AppModule {
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(APP_ID) private appId: string
+  ) {
+
+  }
 }

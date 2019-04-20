@@ -12,8 +12,6 @@ import { debounceTime, map, exhaustMap } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-
-@Injectable()
 export class AuthEffects {
 
   @Effect()

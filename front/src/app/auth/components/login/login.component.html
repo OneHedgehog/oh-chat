@@ -1,11 +1,37 @@
-<form (submit)="onSubmit($event, {name: 'sdf', pass: 'sdf'})">
-  <p>
-    login
-    <input type="text">
-  </p>
-  <p>
-    password
-    <input type="text">
-  </p>
-  <button>login</button>
-</form>
+<div class="flex-wrapper">
+  <div class="form-wrapper">
+    <form class="oh-login-form" (submit)="onSubmit($event, {name: 'sdf', pass: 'sdf'})">
+      <div class="form-header">
+        <h1>mw.</h1>
+      </div>
+      <div class="oh-login-form-content">
+        <div><input type="text" placeholder="USERNAME"/></div>
+        <div><input type="text" placeholder="PASSWORD"/></div>
+        <div class="checkbox-wrap">
+          <input type="checkbox" id="keep-me-sign-in">
+          <label for="keep-me-sign-in">Keep me signed in</label>
+        </div>
+      </div>
+      <div class="oh-button-container">
+        <button>Forgot Password?</button>
+        <button class="active">Sign in</button>
+      </div>
+    </form>
+    <a class="oh-register-form">
+      <div class="form-header">
+        <h1>mw.</h1>
+      </div>
+      <div class="oh-login-form-content">
+        <div><input type="text" placeholder="EMAIL"/></div>
+        <div><input type="text" placeholder="USERNAME"/></div>
+        <div><input type="text" placeholder="FIRST NAME"/></div>
+        <div><input type="text" placeholder="PASSWORD"/></div>
+      </div>
+      <div class="oh-button-container">
+        <button>SIGN UP</button>
+        <button class="active">.</button>
+      </div>
+    </a>
+  </div>
+</div>
+
