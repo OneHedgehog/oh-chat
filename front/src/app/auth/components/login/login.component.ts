@@ -11,19 +11,18 @@ import { LoginPageActions } from '../../actions';
   styleUrls: ['./login.component.sass']
 })
 export class LoginComponent implements OnInit {
-
-
-  form: FormGroup = new FormGroup({
+  public form: FormGroup = new FormGroup({
     username: new FormControl(''),
     password: new FormControl(''),
   });
 
-  constructor(private store: Store<any>) { }
+  public constructor(private store: Store<any>) { }
 
-  ngOnInit() {
+  public ngOnInit() {
   }
 
-  onSubmit(e, crendetials) {
+  public onSubmit(e, crendetials) {
+    console.log(this.form);
     e.preventDefault();
     this.store.dispatch(new LoginPageActions.Login({ credentials: crendetials}))
   }

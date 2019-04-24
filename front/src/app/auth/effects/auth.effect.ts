@@ -7,19 +7,18 @@ import { AuthService} from "../services/auth.service";
 import * as login from '../actions/login-page.actions';
 import {Observable, of} from "rxjs";
 
-import { debounceTime, map, exhaustMap } from 'rxjs/operators';
+import { map, exhaustMap } from 'rxjs/operators';
 
-@Injectable({
-  providedIn: 'root'
-})
+import { Credentials } from "../models/user";
+
+@Injectable()
 export class AuthEffects {
-
   @Effect()
   login$: Observable<Action> = this.actions$.pipe(
     ofType(login.LoginPageActionTypes.Login),
-    exhaustMap( eventData => {
-      console.log('asd');
-      return of();
+    map((action: any) => action.payload),
+    exhaustMap( (userCredentails : Credentials ) : any => {
+      this.authService.login(userCredentails);
     })
   )
 

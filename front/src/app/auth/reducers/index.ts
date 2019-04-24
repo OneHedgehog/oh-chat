@@ -8,5 +8,5 @@ import { LoginPageActions} from "../actions";
 import * as fromLoginPage from './login-page.reducer'
 
 export const reducers: ActionReducerMap<any, LoginPageActions.LoginPageActionsUnion> = {
-  credetials: fromLoginPage.reducer
+  credentials: fromLoginPage.reducer
 };

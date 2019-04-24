@@ -10,6 +10,7 @@ import { AuthRoutingModule} from "./auth-routing.module";
 import { AuthService} from "./services/auth.service";
 import { AuthEffects } from './effects/auth.effect';
 import { EffectsModule } from '@ngrx/effects';
+import {ReactiveFormsModule} from "@angular/forms";
 
 export const COMPONENTS = [
   LoginComponent,
@@ -20,6 +21,7 @@ export const COMPONENTS = [
   imports: [
     CommonModule,
     AuthRoutingModule,
+    ReactiveFormsModule,
     StoreModule.forFeature('Login Page', reducers),
     EffectsModule.forFeature([AuthEffects])
   ],

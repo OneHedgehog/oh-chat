@@ -16,7 +16,6 @@ export function reducer(
 ) {
   switch (action.type) {
     case LoginPageActions.LoginPageActionTypes.Login:
-      console.log('sdf');
       return {
         ...state,
         error: null,

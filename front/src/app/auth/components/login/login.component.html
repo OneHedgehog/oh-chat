@@ -1,12 +1,12 @@
 <div class="flex-wrapper">
   <div class="form-wrapper">
-    <form class="oh-login-form" (submit)="onSubmit($event, {name: 'sdf', pass: 'sdf'})">
+    <form [formGroup]="form" class="oh-login-form" (submit)="onSubmit($event, {name: 'sdf', pass: 'sdf'})">
       <div class="form-header">
         <h1>mw.</h1>
       </div>
       <div class="oh-login-form-content">
-        <div><input type="text" placeholder="USERNAME"/></div>
-        <div><input type="text" placeholder="PASSWORD"/></div>
+        <div><input type="text" placeholder="USERNAME" formControlName="username"/></div>
+        <div><input type="text" placeholder="PASSWORD"  formControlName="password"/></div>
         <div class="checkbox-wrap">
           <input type="checkbox" id="keep-me-sign-in">
           <label for="keep-me-sign-in">Keep me signed in</label>
