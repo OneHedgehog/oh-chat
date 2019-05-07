@@ -8,20 +8,28 @@ import { AppComponent} from "./core/components/app.component";
 import { StoreModule } from '@ngrx/store';
 
 import { EffectsModule } from '@ngrx/effects';
+import {HttpClientModule} from "@angular/common/http";
 import { AppEffects } from './app.effects';
 import { AppRoutingModule } from "./app-routing.module";
 import {AuthModule} from "./auth/auth.module";
+import {GraphQLModule} from "./graphql.module";
 
 
 @NgModule({
   imports: [
+    //ssr
     BrowserModule.withServerTransition({ appId: 'front' }),
-    BrowserAnimationsModule,
-    ChatModule,
-    AuthModule,
+    //ngrx
     StoreModule.forRoot({}),
     EffectsModule.forRoot([AppEffects]),
+    //vendor angular
+    HttpClientModule,
+    BrowserAnimationsModule,
+    //graphQl
+    GraphQLModule,
 
+    ChatModule,
+    AuthModule,
     AppRoutingModule
   ],
   providers: [],
@@ -30,6 +38,7 @@ import {AuthModule} from "./auth/auth.module";
 })
 export class AppModule {
   constructor(
+    //ssr
     @Inject(PLATFORM_ID) private platformId: Object,
     @Inject(APP_ID) private appId: string
   ) {

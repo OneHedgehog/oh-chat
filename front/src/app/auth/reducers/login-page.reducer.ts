@@ -12,13 +12,25 @@ export const initialState: State = {
 
 export function reducer(
   state = initialState,
-  action: LoginPageActions.Login
+  action: LoginPageActions.LoginPageActionsUnion
 ) {
   switch (action.type) {
     case LoginPageActions.LoginPageActionTypes.Login:
       return {
         ...state,
         error: null,
+        pending: true
+      };
+    case LoginPageActions.LoginPageActionTypes.LoginSuccess:
+      return {
+        ...state,
+        error: null,
+        pending: false
+      };
+    case  LoginPageActions.LoginPageActionTypes.LoginError:
+      return {
+        ...state,
+        error: action.payload,
         pending: false,
       }
     default:
