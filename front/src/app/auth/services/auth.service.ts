@@ -12,6 +12,7 @@ export class AuthService {
   constructor( private apollo: Apollo) { }
 
   login(userCredentials: Credentials) : Observable<any> {
+    console.log('service')
    return this.apollo.watchQuery({
      query: gql`
           {
@@ -22,5 +23,5 @@ export class AuthService {
           }
         `,
    }).valueChanges;
-  }
+   }
 }

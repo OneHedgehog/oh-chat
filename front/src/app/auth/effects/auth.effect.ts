@@ -7,21 +7,21 @@ import { AuthService} from "../services/auth.service";
 import * as Login from '../actions/login-page.actions';
 import {Observable, of} from "rxjs";
 import {map, exhaustMap, catchError, tap} from 'rxjs/operators';
-import { Credentials } from "../models/user";
+import { Credentials, User, UserError } from "../models/user";
 
 @Injectable()
 export class AuthEffects {
   @Effect()
   login$: Observable<Action> = this.actions$.pipe(
     ofType(Login.LoginPageActionTypes.Login),
-    map((action: any) => action.payload),
-    exhaustMap( (userCredentails : Credentials ) : any => {
-     this.authService.login(userCredentails).pipe(
+    map((action: User | any ) => action.payload),
+    exhaustMap( (userCredentails : Credentials ) : Observable<User | any> =>
+      this.authService.login(userCredentails).pipe(
        map( user => new Login.LoginSuccess(user)),
        catchError( error => of(new Login.LoginError(error)))
-     );
-    })
-  )
+     )
+    )
+  );
 
   @Effect({dispatch: false})
   $loginSuccess: Observable<Action> = this.actions$.pipe(

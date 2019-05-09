@@ -6,3 +6,7 @@ export interface Credentials {
    id: number,
    name: string
  }
+ 
+ export interface UserError {
+   any;
+ }

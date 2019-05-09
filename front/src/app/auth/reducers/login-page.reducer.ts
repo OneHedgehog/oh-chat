@@ -22,12 +22,13 @@ export function reducer(
         pending: true
       };
     case LoginPageActions.LoginPageActionTypes.LoginSuccess:
+
       return {
         ...state,
         error: null,
         pending: false
       };
-    case  LoginPageActions.LoginPageActionTypes.LoginError:
+    case LoginPageActions.LoginPageActionTypes.LoginError:
       return {
         ...state,
         error: action.payload,
