@@ -23,7 +23,8 @@
         "symfony/twig-bundle": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "webonyx/graphql-php": "^0.13.1"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
