@@ -5,15 +5,15 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./backend:/backend
+      - ./auth-service:/auth-service
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-  #docker-compose exec php php /backend/bin/console cache:clear
+  #docker-compose exec php php /auth-service/bin/console cache:clear
   #for access to console
   php:
     build: ./
     image: php:7.2-fpm-alpine
     volumes:
-      - ./backend:/backend
+      - ./auth-service:/auth-service
   pgsql:
     image: postgres
     restart: always
@@ -63,9 +63,9 @@ services:
     #TODO fix to automatic upload
     command: install
     volumes:
-      - ./backend:/backend
+      - ./auth-service:/auth-service
     #working dir is needed to load composer packages
 
     #run this, if need to run command in new container. Actually for windows
     #docker-compose run composer install
-    working_dir: /backend
+    working_dir: /auth-service

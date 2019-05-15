@@ -2,9 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a4045c-63f2-451f-ad4c-afc88562bb24" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/graphql-getaway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql-getaway-service/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/.env.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/composer" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/bin/composer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/bin/phpunit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/composer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer-setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/composer-setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/composer.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/debug.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/debug.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/easy_log_handler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/doctrine_migrations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/prod/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/sensio_framework_extra.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/test/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/test/monolog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/test/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/test/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/test/swiftmailer.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/test/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/translation.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/packages/validator.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/packages/validator.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/routes/dev/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/routes/dev/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/routes/dev/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Controller/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Entity/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Migrations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/Repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/Repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/tests/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/translations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +106,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphql-getaway-service/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graphql-getaway-service/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -68,13 +131,12 @@
       <list>
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>width</find>
-      <find>90</find>
       <find>70</find>
       <find>oh-</find>
       <find>10px</find>
@@ -103,6 +165,8 @@
       <find>environment</find>
       <find>HttpCliend</find>
       <find>HttpClientModule</find>
+      <find>backend</find>
+      <find>express()</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\andre\PhpstormProjects\oh-chat\front\src\app</dir>
@@ -116,6 +180,7 @@
       <dir>C:\Users\apert\PhpstormProjects\universal\src</dir>
       <dir>C:\Users\apert\PhpstormProjects\oh-chat\front\src</dir>
       <dir>C:\Users\apert\PhpstormProjects\oh-chat</dir>
+      <dir>C:\Users\apert\PhpstormProjects\oh-chat\graphql-getaway-service\node_modules</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -124,8 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/front/src/app/chat/containers/chat/app.component.html" />
         <option value="$PROJECT_DIR$/front/src/app/core/components/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/front/src/app/core/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/front/src/app/core/app.module.ts" />
@@ -150,8 +213,6 @@
         <option value="$PROJECT_DIR$/backend/src/Controller/.gitignore" />
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DRa3124.42469/sites-enabled/example.com.conf" />
         <option value="$PROJECT_DIR$/nginx/default.conf" />
-        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-available/default" />
-        <option value="$PROJECT_DIR$/nginx/default" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/front/src/app/auth/components/login/login.component.sass" />
         <option value="$PROJECT_DIR$/front/server.ts" />
@@ -175,6 +236,10 @@
         <option value="$PROJECT_DIR$/front/src/app/auth/models/user.ts" />
         <option value="$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts" />
         <option value="$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts" />
+        <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/nginx/sites-available/default" />
+        <option value="$PROJECT_DIR$/nginx/default" />
+        <option value="$PROJECT_DIR$/graphql-getaway-service/index.js" />
+        <option value="$PROJECT_DIR$/graphql-getaway-service/.gitignore" />
       </list>
     </option>
   </component>
@@ -284,6 +349,7 @@
       <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-bundle" />
       <path value="$PROJECT_DIR$/backend/vendor/psr/link" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/webonyx/graphql-php" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -309,7 +375,12 @@
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="graphql-getaway-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
@@ -340,15 +411,15 @@
     <property name="ts.external.directory.path" value="C:\Users\apert\PhpstormProjects\universal\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\apert\PhpstormProjects\oh-chat" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\effects" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\containers" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\services" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\chat\containers\chat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apert\PhpstormProjects\oh-chat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -458,12 +529,15 @@
       <workItem from="1556993621196" duration="994000" />
       <workItem from="1557007277849" duration="2603000" />
       <workItem from="1557252945894" duration="9316000" />
-      <workItem from="1557428272867" duration="6691000" />
+      <workItem from="1557428272867" duration="7954000" />
+      <workItem from="1557568504151" duration="938000" />
+      <workItem from="1557770512671" duration="1616000" />
+      <workItem from="1557947094695" duration="4241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334740000" />
+    <option name="totallyTimeSpent" value="342798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,12 +550,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56149733" visible="true" weight="0.29261744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56149733" visible="true" weight="0.304698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.43850267" side_tool="true" weight="0.3577181" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4688385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -489,7 +564,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.40651557" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.3427762" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.30496454" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32907802" />
@@ -498,7 +573,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.16040269" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.18590604" />
       <window_info anchor="right" id="Database" order="4" weight="0.1671141" />
     </layout>
     <layout-to-restore>
@@ -592,48 +667,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixed nginx config for Vagrant" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../universal/node_modules/@angular/platform-server/src/server.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../universal/node_modules/@nguniversal/module-map-ngfactory-loader/src/module-map-loader.module.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../universal/node_modules/@angular/platform-browser/src/browser.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../universal/node_modules/@angular/core/src/application_tokens.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../universal/src/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/amqp/amqp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../universal/src/browserslist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -957,11 +990,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/default">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-getaway-service/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-getaway-service/node_modules/apollo-server/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1451">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-getaway-service/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-getaway-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>

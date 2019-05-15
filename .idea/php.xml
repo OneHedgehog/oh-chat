@@ -103,6 +103,7 @@
       <path value="$PROJECT_DIR$/backend/vendor/symfony/debug-bundle" />
       <path value="$PROJECT_DIR$/backend/vendor/psr/link" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/webonyx/graphql-php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

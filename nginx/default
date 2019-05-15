@@ -8,7 +8,7 @@ server {
         error_log  /var/log/nginx/auth_error.log;
         access_log /var/log/nginx/auth_access.log;
 
-        alias /var/www/backend/public/;
+        alias /var/www/auth-service/public/;
         index index.php;
 
         location ~ \.php$ {
@@ -16,9 +16,25 @@ server {
             fastcgi_pass 127.0.0.1:9000;
             fastcgi_index index.php;
             include fastcgi_params;
-            fastcgi_param SCRIPT_FILENAME /var/www/backend/public/index.php;
+            fastcgi_param SCRIPT_FILENAME /var/www/auth-service/public/index.php;
         }
     }
+
+   location /graphgl-getaway/ {
+     error_log  /var/log/nginx/graphql_getaway_error.log;
+     access_log /var/log/nginx/graphql_getaway_access.log;
+
+     alias /var/www/auth-service/public/;
+     index index.php;
+
+     location ~ \.php$ {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME /var/www/auth-service/public/index.php;
+     }
+   }
 
 
 
