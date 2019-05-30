@@ -16,9 +16,8 @@ export class AuthService {
    return this.apollo.watchQuery({
      query: gql`
           {
-            rates(currency: "USD") {
-              currency
-              rate
+            user {
+              name
             }
           }
         `,

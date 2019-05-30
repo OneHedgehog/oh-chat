@@ -26,13 +26,13 @@ export class AuthEffects {
   @Effect({dispatch: false})
   $loginSuccess: Observable<Action> = this.actions$.pipe(
     ofType(Login.LoginPageActionTypes.LoginSuccess),
-    tap(() => this.router.navigate(['/']))
+    tap(() => /*this.router.navigate(['/login'])*/ '')
   )
 
   @Effect({dispatch: false})
   $loginError: Observable<Action> = this.actions$.pipe(
     ofType(Login.LoginPageActionTypes.LoginError),
-    tap(() => this.router.navigate(['/login']))
+    tap(() => /*this.router.navigate(['/login'])*/ '')
   )
 
   constructor(private actions$: Actions, private authService: AuthService, private router: Router ) { }
