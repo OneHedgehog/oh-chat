@@ -5,16 +5,8 @@
       <change afterPath="$PROJECT_DIR$/graphql-gateway/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graphql-gateway/src/user/user.graphql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/graphql-gateway/src/user/user.resolver.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/auth/effects/auth.effect.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/auth/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/graphql.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/graphql.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-getaway-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-getaway-service/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-getaway-service/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-getaway-service/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql-gateway/src/user/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-gateway/src/user/user.graphql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,38 +52,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphql-gateway/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.graphql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphql-gateway/node_modules/@types/express/index.d.ts">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphql-gateway/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.resolver.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graphql-gateway/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="25">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -161,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/backend/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php" />
         <option value="&lt;1a7a2422-5959-444a-a83f-ab35167579c5&gt;/etc/php/7.3/fpm/pool.d/www.conf" />
@@ -205,13 +189,14 @@
         <option value="$PROJECT_DIR$/graphql-getaway-service/dist/index.js" />
         <option value="$PROJECT_DIR$/graphql-getaway-service/tsconfig.json" />
         <option value="$PROJECT_DIR$/graphql-getaway-service/server/index.ts" />
+        <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.resolver" />
+        <option value="$PROJECT_DIR$/graphql-gateway/node_modules/@types/express/index.d.ts" />
+        <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.graphql" />
+        <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.module.ts" />
         <option value="$PROJECT_DIR$/graphql-gateway/.env" />
         <option value="$PROJECT_DIR$/graphql-gateway/src/main.ts" />
-        <option value="$PROJECT_DIR$/graphql-gateway/src/app.module.ts" />
-        <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.resolver" />
         <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.resolver.ts" />
-        <option value="$PROJECT_DIR$/graphql-gateway/src/user/user.graphql" />
-        <option value="$PROJECT_DIR$/graphql-gateway/node_modules/@types/express/index.d.ts" />
+        <option value="$PROJECT_DIR$/graphql-gateway/src/app.module.ts" />
       </list>
     </option>
   </component>
@@ -352,22 +337,14 @@
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
               <item name="graphql-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
               <item name="graphql-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oh-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="graphql-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@types" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oh-chat" type="b2602c69:ProjectViewProjectNode" />
@@ -399,15 +376,15 @@
     <property name="ts.external.directory.path" value="C:\Users\apert\PhpstormProjects\universal\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\apert\PhpstormProjects\oh-chat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\apert\PhpstormProjects\oh-chat\graphql-gateway" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\effects" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\containers" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth\services" />
       <recent name="C:\Users\andre\PhpstormProjects\oh-chat\front\src\app\auth" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\apert\PhpstormProjects\oh-chat" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -535,12 +512,14 @@
       <workItem from="1558988786024" duration="1484000" />
       <workItem from="1559070784737" duration="1489000" />
       <workItem from="1559163621978" duration="2400000" />
-      <workItem from="1559246046255" duration="4658000" />
+      <workItem from="1559246046255" duration="4937000" />
+      <workItem from="1559330889465" duration="4110000" />
+      <workItem from="1559340318728" duration="2933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380009000" />
+    <option name="totallyTimeSpent" value="387331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,7 +534,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.56149733" visible="true" weight="0.3785235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.56149733" visible="true" weight="0.38926175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.43850267" side_tool="true" weight="0.3577181" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -567,12 +546,13 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.63154364" visible="true" weight="0.39093485" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.36845636" side_tool="true" visible="true" weight="0.39093485" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.63020134" visible="true" weight="0.39093485" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.36979866" side_tool="true" visible="true" weight="0.39093485" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32907802" />
       <window_info anchor="bottom" id="TypeScript" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="File Transfer" order="14" weight="0.37818697" />
+      <window_info anchor="bottom" id="GraphQL" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -670,39 +650,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixed nginx config for Vagrant" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/auth/actions/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/auth/reducers/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/app/auth/auth.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/node_modules/@ngrx/effects/src/actions.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -850,32 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dotenv/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/dotenv/config.js" />
     <entry file="file://$PROJECT_DIR$/graphql-gateway/src/app.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -899,42 +821,6 @@
     <entry file="file://$PROJECT_DIR$/graphql-gateway/nodemon.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/node_modules/@nestjs/graphql/dist/decorators/resolver.decorator.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.resolver.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphql-gateway/node_modules/@types/express/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -942,6 +828,75 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/user/user.module.ts" />
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/node_modules/@nestjs/graphql/dist/decorators/resolver.decorator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/node_modules/@nestjs/graphql/dist/decorators/query.decorator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/graphql.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.resolver.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/user/user.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql-gateway/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
